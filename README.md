@@ -21,12 +21,24 @@ A simple image gallery viewer built with **Python**, using **Tkinter** for the G
 git clone https://github.com/Nomahk25/image-gallery-app.git
 cd image-gallery-app
 
-#### Install Dependencies
+#### 2. Create an images/ Folder
+
+Place your image files in a folder named images in the project directory:
+project-root/
+│
+├── images/
+│   ├── photo1.jpg
+│   ├── photo2.png
+│   └── ...
+├── gallery.py
+└── README.md
+
+#### 3. Install Dependencies
 
 Ensure you have Python installed (version 3.x), then install Pillow:
 pip install pillow
 
-##### Run the App
+##### 4. Run the App
 
 python gallery.py
 
