@@ -10,11 +10,9 @@ class ImageGallery:
         self.images = [f for f in os.listdir(img_folder) if f.endswith(('.png', '.jpg', '.jpeg', '.gif'))]
         self.index = 0
 
-        # Display first image
         self.img_label = Label(root)
         self.img_label.pack()
 
-        # Navigation buttons
         prev_btn = Button(root, text="Previous", command=self.prev_image)
         prev_btn.pack(side="left")
         next_btn = Button(root, text="Next", command=self.next_image)
